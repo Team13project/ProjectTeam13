@@ -11,7 +11,7 @@
 Option Explicit On
 Option Infer Off
 Option Strict On
-Public Class frmDiseaseManager
+Public Class frmDiseaseManagers
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
