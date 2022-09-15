@@ -75,7 +75,7 @@ Public Class frmDiseaseManager
     'getting details on how many people were infected with each type of disease in each country
     Private Sub btnDInput_Click(sender As Object, e As EventArgs) Handles btnDInput.Click
 
-        Dim c As Integer
+      Dim c As Integer
         Dim ninfected As Integer
 
         objtb = New TB()
