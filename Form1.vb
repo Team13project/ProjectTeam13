@@ -28,12 +28,13 @@ Public Class frmDiseaseManager
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
-    'subroutine for grid
+   'subroutine for grid
     Private Sub Display(ByVal r As Integer, ByVal c As Integer, ByVal t As String)
         grdDisplay.Row = r
         grdDisplay.Col = c
         grdDisplay.Text = t
     End Sub
+
 
 
     'Setting up titles on grid and resizin grid acording to number of countries
