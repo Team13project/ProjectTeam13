@@ -35,9 +35,7 @@ Public Class frmDiseaseManager
         grdDisplay.Text = t
     End Sub
 
-
-
-    'Setting up titles on grid and resizin grid acording to number of countries
+'Setting up titles on grid and resizin grid acording to number of countries
     Private Sub btnInit_Click(sender As Object, e As EventArgs) Handles btnInit.Click
         nc = CInt(InputBox("How many countries?"))
         grdDisplay.Rows = nc + 1
@@ -70,6 +68,9 @@ Public Class frmDiseaseManager
             Display(c, 0, name)
             Display(c, 5, CStr(population(c)))
         Next c
+
+
+  
 
     End Sub
 
