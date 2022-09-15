@@ -3,18 +3,12 @@ Option Explicit On
 Option Infer Off
 Option Strict On
 Public Class Disease
-  private _name as string
-  private _ test as string 
+  private _ninfected as integer
+ 
   
    'Property methods
-    Public Property Name As String
-        Get
-            Return _name
-        End Get
-        Set(value As String)
-            _name = value
-        End Set
-    End Property
+    
+    
     Public Property Ninfected As Integer
         Get
             Return _Ninfected
@@ -25,12 +19,12 @@ Public Class Disease
     End Property
 
     'constructors
-    Public Sub New(name As String, ninfect As Integer)
-        _name = name
+    Public Sub New( ninfect As Integer)
         _Ninfected = ninfect
     End Sub
     Public Sub New()
 
+    
     End Sub
 
     'ovveridable function showing common symptoms
